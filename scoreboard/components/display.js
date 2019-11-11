@@ -1,23 +1,17 @@
-import React, { Component } from 'react';
+import React from 'react';
+
+const Display = ({balls, strikes}) => {
 
 
-class Display extends Component {
-    constructor (props) {
-        super(props);
-        this.state = {
-
-        };
-    }
-
-    render () {
-        return (
+    render (
+        <section className = "display-at-bat">
             <div>
-
+                balls: {balls}
+                strikes: {strikes}
             </div>
-
-        );
-    }
-}
+        </section>
+    );
+};
     
 
 export default Display;

@@ -14,10 +14,6 @@ const Dashboard = ({ball, strike, foul, hit}) => {
 
 export default Dashboard;
         
-    
-
-    
-export default Dashboard;
 
 // - balls and strikes reset to 0 when a player reaches 3 strikes or 4 balls.
 // - balls and strikes reset to 0 when a `hit` is recorded.
